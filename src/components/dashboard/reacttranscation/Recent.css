@@ -1,0 +1,46 @@
+.recent-transactions {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 10px;
+    width: 700px;
+   
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recent-transactions-title {
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  
+  .recent-transactions-update {
+    font-size: 12px;
+    color: #6b7280;
+  }
+  
+  .recent-transactions-list {
+    margin-top: 12px;
+  }
+  
+  .transaction-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .transaction-phone {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .transaction-method {
+    font-size: 12px;
+    color: #6b7280;
+  }
+  
+  .transaction-amount {
+    color: #28a745;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  

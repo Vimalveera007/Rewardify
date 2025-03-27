@@ -1,0 +1,62 @@
+.sidebar {
+    width: 250px;
+    background-color: #f8f9fa;
+    min-height: 90vh;
+    padding: 20px;
+  }
+  
+  .logo {
+    color: #28a745;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .shop-info {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .shop-image {
+    width: 100px;
+    border-radius: 10px;
+  }
+  
+  .shop-name {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .shop-id {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .nav-menu {
+    margin-top: 30px;
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #555;
+    transition: 0.3s;
+    border-radius: 5px;
+    gap: 10px;
+  }
+  
+  .nav-item:hover {
+    background-color: #e9ecef;
+  }
+  
+  .nav-item.active {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
